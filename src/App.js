@@ -6,6 +6,11 @@ function App() {
       <header className="App-header">
         
       </header>
+
+      <body>
+        <div>
+        </div>
+      </body>
     </div>
   );
 }

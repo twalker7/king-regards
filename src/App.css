@@ -1,19 +1,24 @@
-.App {
+.App{
   text-align: center;
   background-image: url(/src/assets/martin-sanchez-unsplash.jpg);
   background-size: cover; /* or contain depending on what you want */
   background-position: center;
   background-repeat: repeat;
   background-attachment: fixed;
+ 
 }
 
 .App-header {
-  background-color: #b9bbc1;
-  min-height: 100vh;
+  background-color: #f2f2f2;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+body{
+  height: 80vh;
 }
