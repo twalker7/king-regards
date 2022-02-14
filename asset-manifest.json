@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/king-regards/static/css/main.f81e23a8.css",
+    "main.css": "/king-regards/static/css/main.9eebd986.css",
     "main.js": "/king-regards/static/js/main.56bf21f4.js",
     "static/js/787.951c143a.chunk.js": "/king-regards/static/js/787.951c143a.chunk.js",
     "static/media/martin-sanchez-unsplash.jpg": "/king-regards/static/media/martin-sanchez-unsplash.eeb1cedab9ce227174f7.jpg",
     "index.html": "/king-regards/index.html",
-    "main.f81e23a8.css.map": "/king-regards/static/css/main.f81e23a8.css.map",
+    "main.9eebd986.css.map": "/king-regards/static/css/main.9eebd986.css.map",
     "main.56bf21f4.js.map": "/king-regards/static/js/main.56bf21f4.js.map",
     "787.951c143a.chunk.js.map": "/king-regards/static/js/787.951c143a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f81e23a8.css",
+    "static/css/main.9eebd986.css",
     "static/js/main.56bf21f4.js"
   ]
 }
