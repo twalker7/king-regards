@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.name-container{
+  height: 10%; 
+  width: 20%;
+  border: 3px rgba(255, 255, 255, .7) solid;
+  border-radius: 20px;
+  padding: 5px;
+  
+  }
+  
+.name{
+    color:white;
+    opacity: .8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+  }

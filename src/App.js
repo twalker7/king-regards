@@ -1,16 +1,22 @@
 import './App.css';
 
+
+
 function App() {
+
+  function clickName(){
+    alert("hello!");
+    console.log("hello?");
+  }
+   
   return (
-    <div className="App">
-
-      <body>
-        <div className="container">
+      <div className="main">
+        <div className="name-container" onClick={clickName}>
           <h1 className="name"> Thomas Walker</h1>
-
         </div>
-      </body>
-    </div>
+        <div className="panel"></div>
+      </div>
+    
   );
 }
 
