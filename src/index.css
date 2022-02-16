@@ -15,8 +15,8 @@ code {
 
 
 .container{
-  height: 60vh; 
-  width: 80vw;
+  height: 70vh; 
+  width: 70vw;
   border: 3px rgba(240, 236, 236, 0.1) solid;
   border-radius: 20px;
   padding: 5px;
@@ -50,7 +50,6 @@ code {
 
 
 
-    src/assets/
     body{
       text-align: center;
       background-image: url(/src/assets/ryan-wilson-unsplash.jpg);
