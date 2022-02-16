@@ -20,7 +20,7 @@ function App() {
           
           <Col></Col> 
           <Col>             
-              <img className="profile-image " src ={require(`../src/assets/ravi-kumar-unsplash.jpg`).default} alt="headshot"/>
+              <img className="profile-image " src ={require(`../src/assets/ravi-kumar-unsplash.jpg`)} alt="headshot"/>
           </Col> 
           <Col></Col>
       </Row>
