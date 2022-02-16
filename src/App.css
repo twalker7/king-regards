@@ -10,6 +10,7 @@ body{
   justify-content: center;
   align-items: center;
  
+ 
 }
 /*
 .App-header {
@@ -26,19 +27,4 @@ body{
 */
 
 
-.container{
-height: 10%; 
-width: 100%;
-border: px rgba(255, 255, 255, .7) solid;
-border-radius: 20px;
-padding: 5px;
-
-}
-
-.name{
-  color:white;
-  opacity: .8;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
  
-}
-
