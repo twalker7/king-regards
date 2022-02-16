@@ -24,7 +24,7 @@ code {
   box-shadow: 10px 5px 5px rgba(255,255,255, .1);
   display:flex;
   flex-direction: column;
-  justify-content: center;
+
   align-items: center;
   }
   
@@ -55,10 +55,11 @@ code {
 
     body{
       text-align: center;
-      background-image: url(/src/assets/ryan-wilson-unsplash.jpg);
+      background-image: url(/src/assets/kazuend-unsplash.jpg);
       background-size: cover; 
       background-position: center;
       background-repeat: repeat;
+      background-attachment: fixed;
       height: 100vh;
       display: flex;
       justify-content: center;
