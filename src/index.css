@@ -14,24 +14,38 @@ code {
 
 
 
-.name-container{
-  height: 10%; 
-  width: 100%;
-  border: 3px rgba(255, 255, 255, .7) solid;
+.container{
+  height: 60vh; 
+  width: 80vw;
+  border: 3px rgba(240, 236, 236, 0.1) solid;
   border-radius: 20px;
   padding: 5px;
+  background-color:rgba(255, 255, 255, .3);
+  box-shadow: 10px 5px 5px rgba(255,255,255, .1);
   
   }
   
-.name{
-    color:white;
+.title{
+    color:rgb(0, 0, 0, .9);
     opacity: .8;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    
   }
 
-  .panel{
-    height: 500px;
-    width: 700px;
-    border: 5px black solid;
+
+  .profile-image{
+    height: 300px;
+    width: 400px;
+    margin-right: 15px;
+    border-radius:20px;
+    opacity: .7;
+    
+  }
+
+  @media only screen and (max-width:600px){
+    .container{
+     
+      width: 80vw; 
+    }
+
   }
