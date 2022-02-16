@@ -21,7 +21,7 @@ code {
   border-radius: 20px;
   padding: 5px;
   background-color:rgba(255, 255, 255, .3);
-  box-shadow: 10px 5px 5px rgba(255,255,255, .1);
+  box-shadow: 10px -15px 10px rgba(255,255,255, .1);
   display:flex;
   flex-direction: column;
 
@@ -29,7 +29,7 @@ code {
   }
   
 .title{
-    color:rgb(0, 0, 0, .9);
+    color:rgb(255, 255, 255, .9);
     opacity: .8;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    
@@ -46,10 +46,6 @@ code {
   }
 
   @media only screen and (max-width:600px){
-    .container{
-     
-      width: 80vw; 
-    }
 
 
 
