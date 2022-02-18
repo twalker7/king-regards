@@ -17,7 +17,7 @@ function App() {
           <h1 className="title">Greetings!</h1>
           <div className="content-section"> 
                       
-              <img className="profile-image " src ={require(`../src/assets/ravi-kumar-unsplash.jpg`)} alt="headshot"/>
+              <img className="profile-image" src ={require(`../src/assets/ravi-kumar-unsplash.jpg`)} alt="chess-piece"/>
         
   
           </div>
