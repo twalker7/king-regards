@@ -8,6 +8,12 @@ function App() {
   function clickName(){
     alert("hello!");
     console.log("hello?");
+    fetch('https://www.thecocktaildb.com/api/json/v1/1/random.php')
+    .then( resp => resp.json())
+    .then(function(data){
+      console.log(data);
+      console.log(data.drinks[0].strDrink);
+    })
   }
    
   return (
