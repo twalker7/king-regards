@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/king-regards/static/css/main.c990e4f6.css",
-    "main.js": "/king-regards/static/js/main.372002f7.js",
+    "main.css": "/king-regards/static/css/main.85376147.css",
+    "main.js": "/king-regards/static/js/main.47d7cde4.js",
     "static/js/787.951c143a.chunk.js": "/king-regards/static/js/787.951c143a.chunk.js",
     "static/media/kazuend-unsplash.jpg": "/king-regards/static/media/kazuend-unsplash.2d45b5e10fed5ba2d199.jpg",
+    "static/media/martin-sanchez-unsplash.jpg": "/king-regards/static/media/martin-sanchez-unsplash.eeb1cedab9ce227174f7.jpg",
     "static/media/ravi-kumar-unsplash.jpg": "/king-regards/static/media/ravi-kumar-unsplash.62ccc869720b34fd9ebd.jpg",
     "index.html": "/king-regards/index.html",
-    "main.c990e4f6.css.map": "/king-regards/static/css/main.c990e4f6.css.map",
-    "main.372002f7.js.map": "/king-regards/static/js/main.372002f7.js.map",
+    "main.85376147.css.map": "/king-regards/static/css/main.85376147.css.map",
+    "main.47d7cde4.js.map": "/king-regards/static/js/main.47d7cde4.js.map",
     "787.951c143a.chunk.js.map": "/king-regards/static/js/787.951c143a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c990e4f6.css",
-    "static/js/main.372002f7.js"
+    "static/css/main.85376147.css",
+    "static/js/main.47d7cde4.js"
   ]
 }
