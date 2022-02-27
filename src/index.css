@@ -30,7 +30,7 @@ justify-content: center;
   
 .title{
     color:rgb(255, 255, 255, .9);
-    opacity: .8;
+   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    
   }
@@ -41,7 +41,7 @@ justify-content: center;
     width: 400px;
     
     border-radius:25px;
-    opacity: .4;
+   
     
   }
 
