@@ -39,7 +39,7 @@ justify-content: center;
   .profile-image{
     height: 300px;
     width: 400px;
-    
+    opacity: .4;
     border-radius:25px;
    
     
@@ -67,7 +67,6 @@ justify-content: center;
     .profile-image{
       height: 200px;
       width: 250px;
-      border-radius: 50%;
       opacity: .4;
       
     }
