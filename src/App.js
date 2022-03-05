@@ -1,5 +1,6 @@
 import './App.css';
-import {Row, Col} from 'react-bootstrap';
+import {Row, Col, Button} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -8,7 +9,7 @@ function App() {
   function clickName(){
     alert("hello!");
     console.log("hello?");
-    fetch('https://www.thecocktaildb.com/api/json/v1/1/random.php')
+    fetch('https://api.scripture.api.bible/v1/swagger.json')
     .then( resp => resp.json())
     .then(function(data){
       console.log(data);
@@ -19,7 +20,7 @@ function App() {
   return (
       <div>
        
-        <div className="container" onClick={clickName}>
+        <div className="container" >
           <h1 className="title">Greetings!</h1>
           <div className="content-section"> 
                       
@@ -27,6 +28,7 @@ function App() {
         
   
           </div>
+          <Button class="explore-button" onClick={clickName}> Explore </Button>
         </div>
     
       </div>
