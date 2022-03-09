@@ -7,14 +7,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
   function clickName(){
-    alert("hello!");
-    console.log("hello?");
-    fetch('https://api.scripture.api.bible/v1/swagger.json')
-    .then( resp => resp.json())
-    .then(function(data){
-      console.log(data);
-      console.log(data.drinks[0].strDrink);
-    })
+    console.log("function executed");
+    fetch("https://collectionapi.metmuseum.org/public/collection/v1/objects")
+    .then(response=>response.json())
+    .then(function(obj){
+        //For Testing:
+            //console.log(obj);
+        var artrandIndex = Math.floor(Math.random() * obj.objectIDs.length);
+        //alert("request test - return art ID:" + obj.objectIDs[artrandIndex]);
+        //Select random number based on array length
+        console.log("ID number: " , obj.objectIDs[artrandIndex]);
+        //Use random number to select artwork ID
+        var randomArtID = obj.objectIDs[artrandIndex];
+        localStorage.setItem("art-id", JSON.stringify(randomArtID));
+        //getArtInfo(randomArtID);
+    });
   }
    
   return (
@@ -28,7 +35,7 @@ function App() {
         
   
           </div>
-          <Button class="explore-button" onClick={clickName}> Explore </Button>
+          <Button className="explore-button" onClick={clickName}> Explore </Button>
         </div>
     
       </div>
