@@ -30,7 +30,7 @@ const sentence = "They can’t relate I feared debates with people who lack but 
       <div>
        
         <div className="container" >
-          <h1 className="title">Greetings!</h1>
+         
           <div className="content-section"> 
                       
               <img className="profile-image" src ={require('../src/assets/ravi-kumar-unsplash.jpg')} alt="chess-piece"/>
