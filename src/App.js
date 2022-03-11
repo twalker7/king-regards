@@ -1,27 +1,32 @@
 import './App.css';
 import {Row, Col, Button} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import REACTDOM from 'react-dom';
 
 
 
 function App() {
 
+  const [isFilled, setIsFilled] = useState(true);
+
   function clickName(){
     console.log("function executed");
     fetch("https://collectionapi.metmuseum.org/public/collection/v1/objects")
     .then(response=>response.json())
-    .then(function(obj){
+    .then(function(respObj){
         //For Testing:
-            //console.log(obj);
-        var artrandIndex = Math.floor(Math.random() * obj.objectIDs.length);
+            //console.log(respObj);
+        var artrandIndex = Math.floor(Math.random() * respObj.objectIDs.length);
         //alert("request test - return art ID:" + obj.objectIDs[artrandIndex]);
         //Select random number based on array length
-        console.log("ID number: " , obj.objectIDs[artrandIndex]);
+        console.log("ID number: " , respObj.objectIDs[artrandIndex]);
         //Use random number to select artwork ID
-        var randomArtID = obj.objectIDs[artrandIndex];
+        var randomArtID = respObj.objectIDs[artrandIndex];
         localStorage.setItem("art-id", JSON.stringify(randomArtID));
         //getArtInfo(randomArtID);
     });
+
+
   }
    
   return (
