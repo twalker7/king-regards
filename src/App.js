@@ -37,7 +37,7 @@ const sentence = "They can’t relate I feared debates with people who lack but 
         
   
           </div>
-          <Button className="explore-button" onClick={clickName}> Explore </Button>
+          <Button className="explore-button" onClick={clickName}> Dig </Button>
         </div>
 
         <div className="counter">{sentence[count]}</div>
