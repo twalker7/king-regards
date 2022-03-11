@@ -8,8 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
-  const sentence = "They can’t relate I feared debates with people who lack but are geared with hate I steered my fate and cleared my plate".split(" ");
-
+const sentence =  "Truth be told I left the country to hide , Just to realize I was built for the ride , Developed all these skills from inside , In the belly of the beast . I was cyanide I & I".split(" "); 
   const [count, setCount] = useState(null);
 
   
