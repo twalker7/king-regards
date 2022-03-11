@@ -51,8 +51,10 @@ justify-content: center;
 
 
 
- footer{
-   background-color: black; 
+ .counter{
+  text-align: center;
+   font-size: 35px;
+   color: white;
 
  }
   @media only screen and (max-width:600px){

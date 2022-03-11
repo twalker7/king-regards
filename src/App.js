@@ -1,22 +1,27 @@
 import './App.css';
-import React, {useState}from 'react';
+import React, {useState, useRef}from 'react';
 import {Row, Col, Button} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import photo from  '../src/assets/ravi-kumar-unsplash.jpg'
+
 
 
 
 
 function App() {
 
-  const [isFilled, setIsFilled] = useState(`../src/assets/ravi-kumar-unsplash.jpg`);
+  const [isFilled, setIsFilled] = useState('../src/assets/ravi-kumar-unsplash.jpg');
 
+  const [count, setCount] = useState("hello");
+
+  
   function clickName(){
-    if(isFilled === '../src/assets/ravi-kumar-unsplash.jpg'){setIsFilled(`../src/assets/ryan-wilson-unsplash.jpg`);
+    if(isFilled === '../src/assets/ravi-kumar-unsplash.jpg'){setIsFilled('../src/assets/ryan-wilson-unsplash.jpg');
     }else{
-      setIsFilled(`../src/assets/ravi-kumar-unsplash.jpg`);
+      setIsFilled('../src/assets/ravi-kumar-unsplash.jpg');
     };
     console.log(isFilled);
-  
+    setCount(count+ " hello");
     function getArtwork(){
       //Fill art box with "stand-by" gif for user's entertainment
      // $("#painting").append('<iframe src="https://giphy.com/embed/LzCREPXRTqtdC" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/spongebob-LzCREPXRTqtdC"></a></p>');
@@ -69,12 +74,14 @@ function App() {
           <h1 className="title">Greetings!</h1>
           <div className="content-section"> 
                       
-              <img className="profile-image" src ={require(`../src/assets/ravi-kumar-unsplash.jpg`)} alt="chess-piece"/>
+              <img className="profile-image" src ={require('../src/assets/ravi-kumar-unsplash.jpg')} alt="chess-piece"/>
         
   
           </div>
           <Button className="explore-button" onClick={clickName}> Explore </Button>
         </div>
+
+        <div className="counter">{count}</div>
 
     
       </div>
