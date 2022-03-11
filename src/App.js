@@ -30,7 +30,7 @@ const sentence = "They can’t relate I feared debates with people who lack but 
       <div>
        
         <div className="container" >
-         
+        <div className="counter">{sentence[count]}</div>
           <div className="content-section"> 
                       
               <img className="profile-image" src ={require('../src/assets/ravi-kumar-unsplash.jpg')} alt="chess-piece"/>
@@ -38,9 +38,10 @@ const sentence = "They can’t relate I feared debates with people who lack but 
   
           </div>
           <Button className="explore-button" onClick={clickName}> Dig </Button>
-        </div>
+        
+         </div>
 
-        <div className="counter">{sentence[count]}</div>
+       
 
     
       </div>

@@ -41,7 +41,7 @@ justify-content: center;
     width: 400px;
     opacity: .4;
     border-radius:25px;
-   
+
     
   }
 
@@ -55,6 +55,8 @@ justify-content: center;
   text-align: center;
    font-size:70px;
    color: white;
+   height: 90px;
+   opacity: .7;
 
  }
   @media only screen and (max-width:600px){
