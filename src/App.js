@@ -7,8 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
-
-const sentence =  "Truth be told I left the country to hide , Just to realize I was built for the ride , Developed all these skills from inside , In the belly of the beast . I was cyanide I&I".split(" "); 
+const iandi = '- I&I'
+const sentence =  "Truth be told I left the country to hide , Just to realize I was built for the ride , developed all these skills from inside . In the belly of the beast I was CYANIDE I&I".split(" "); 
   const [count, setCount] = useState(null);
 
   
