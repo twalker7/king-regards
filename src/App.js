@@ -12,7 +12,7 @@ function App() {
 
   const [isFilled, setIsFilled] = useState('../src/assets/ravi-kumar-unsplash.jpg');
 
-  const [count, setCount] = useState("hello");
+  const [count, setCount] = useState("");
 
   
   function clickName(){
