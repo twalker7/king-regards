@@ -9,8 +9,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
   const [isFilled, setIsFilled] = useState('../src/assets/ravi-kumar-unsplash.jpg');
+const sentence = "They can’t relate I feared debates with people who lack but are geared with hate I steered my fate and cleared my plate".split(" ");
 
-  const [count, setCount] = useState("");
+  const [count, setCount] = useState(0);
 
   
   function clickName(){
@@ -19,7 +20,7 @@ function App() {
       setIsFilled('../src/assets/ravi-kumar-unsplash.jpg');
     };
     console.log(isFilled);
-    setCount(count+ " hello");
+    setCount(count + 1);
   
 
   }
@@ -39,7 +40,7 @@ function App() {
           <Button className="explore-button" onClick={clickName}> Explore </Button>
         </div>
 
-        <div className="counter">{count}</div>
+        <div className="counter">{sentence[count]}</div>
 
     
       </div>
