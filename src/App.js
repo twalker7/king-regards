@@ -11,7 +11,7 @@ function App() {
   const [isFilled, setIsFilled] = useState(`../src/assets/ravi-kumar-unsplash.jpg`);
 
   function clickName(){
-    if(isFilled === `../src/assets/ravi-kumar-unsplash.jpg`){setIsFilled(`../src/assets/ryan-wilson-unsplash.jpg`);
+    if(isFilled === '../src/assets/ravi-kumar-unsplash.jpg'){setIsFilled(`../src/assets/ryan-wilson-unsplash.jpg`);
     }else{
       setIsFilled(`../src/assets/ravi-kumar-unsplash.jpg`);
     };
