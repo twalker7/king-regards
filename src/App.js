@@ -1,16 +1,21 @@
 import './App.css';
+import React, {useState} from 'react';
 import {Row, Col, Button} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import REACTDOM from 'react-dom';
+
 
 
 
 function App() {
 
-  const [isFilled, setIsFilled] = useState(true);
+  const [isFilled, setIsFilled] = useState(false);
 
   function clickName(){
-    console.log("function executed");
+    if(!isFilled){setIsFilled(true)
+    }else{
+      setIsFilled(false)
+    };
+    console.log(isFilled);
     fetch("https://collectionapi.metmuseum.org/public/collection/v1/objects")
     .then(response=>response.json())
     .then(function(respObj){
