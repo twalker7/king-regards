@@ -18,7 +18,9 @@ const sentence =  "Truth be told I left the country to hide , Just to realize I 
     
 
   }
-
+  function resetCount(){
+    setCount(count * null);
+  }
    
   return (
       <div>
@@ -29,10 +31,12 @@ const sentence =  "Truth be told I left the country to hide , Just to realize I 
                       
               <img className="profile-image" src ={require('../src/assets/ravi-kumar-unsplash.jpg')} alt="chess-piece"/>
         
-  
+
           </div>
-          <Button className="explore-button" onClick={clickName}> Proceed </Button>
-        
+          <Button className="explore-button" onClick={clickName}> Jewelry </Button>
+          <br/>
+          <Button className="explore-button" onClick={resetCount}>   Reset   </Button>
+
          </div>
 
        
