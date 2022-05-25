@@ -35,7 +35,7 @@ const sentence =  "Truth be told I left the country to hide , Just to realize I 
           </div>
           <Button className="explore-button" onClick={clickName}> Feed </Button>
           <br/>
-          <Button className="explore-button" onClick={resetCount}>   Reset   </Button>
+          <Button className="explore-button" onClick={resetCount}> Reset </Button>
 
          </div>
          
