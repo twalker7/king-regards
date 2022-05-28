@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
 //const sentence =  "Truth be told I left the country to hide , Just to realize I was built for this ride . Developed all these skills from inside ; In the belly of the beast I was CYANIDE".split(" "); 
-const sentence =  "David is a bitch . David ? He a bitch".split(" "); 
+const sentence =  "Mass shootings are an act of treason in a country where any person has the right to run for president".split(" "); 
 
 
 const [count, setCount] = useState(null);
