@@ -64,7 +64,7 @@ code {
 
 
 
-    body{
+   /* body{
       text-align: center;
       background-image: url(/src/assets/kazuend-unsplash.jpg);
       background-size: cover; 
@@ -78,6 +78,7 @@ code {
      
 
     }
+    */
 
     .profile-image{
       height: 40vh;
