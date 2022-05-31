@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
 //const sentence =  "Truth be told I left the country to hide , Just to realize I was built for this ride . Developed all these skills from inside ; In the belly of the beast I was CYANIDE".split(" "); 
-const sentence =  " Mass shootings are an act of treason in a country where every citizen has an opportunity to participate in government . Public torture would deter these terrorist cowards !".split(" "); 
+const sentence =  " Mass shootings are an act of treason in a country where every citizen has an opportunity to participate in government . ".split(" "); 
 
 
 const [count, setCount] = useState(null);
@@ -17,8 +17,11 @@ const [count, setCount] = useState(null);
   
   function clickName(){
 
-    setCount(count == null ? 0 : count + 1);
-    
+    setInterval(setCount(count == null ? 0 : count + 1), 1000) ;
+
+      if(count > sentence.length){
+        clearInterval();
+      }    
 
   }
   function resetCount(){
