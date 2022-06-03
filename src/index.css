@@ -16,8 +16,8 @@ code {
 
 
 .container{
-  height: 50vh; 
-  width: 50vw;
+  height: 400px; 
+  width: auto;
   border: 3px rgba(240, 236, 236, 0.1) solid;
   border-radius: 25px;
   padding: 5px;
@@ -27,7 +27,7 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation: spinround 20s ease-in-out infinite normal;
+  animation: spinround 20s ease-in infinite normal;
   
 
   }
@@ -37,6 +37,10 @@ code {
    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    
+  }
+
+  .content-section{
+    width: 400px;
   }
 
 
@@ -67,12 +71,14 @@ code {
   from {
     transform: rotate(0deg);
   }
-  10%  { opacity: .1 ; }
-  30%  { opacity: .5 ; }
+  10%  { opacity: .4 ; }
+  30%  { opacity: .7 ; }
+  40% { opacity: .8 ; }
   50%  { opacity: 1 ; }
   50%  { transform: rotate(1800deg); }
-  70%  { opacity: .5 ; }
-  90% { opacity: .1}
+  60%{ opacity: .8 ;}
+  70%  { opacity: .7 ; }
+  90% { opacity: .4}
   to {
     transform: rotate(0);
   }

@@ -35,8 +35,7 @@ const [count, setCount] = useState(null);
         <div className="counter">{sentence[count]}</div>
           <div className="content-section"> 
                       
-              <img className="profile-image" src ={require('../src/assets/ravi-kumar-unsplash.jpg')} alt="chess-piece"/>
-        
+    
 
           </div>
 
