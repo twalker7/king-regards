@@ -16,8 +16,8 @@ code {
 
 
 .container{
-  height: 95vh; 
-  width: 500px;
+  height: 50vh; 
+  width: 50vw;
   border: 3px rgba(240, 236, 236, 0.1) solid;
   border-radius: 25px;
   padding: 5px;
@@ -27,7 +27,7 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation: spinround 50s ease-in 0s infinite normal;
+  animation: spinround 20s ease-in-out infinite normal;
   
 
   }
@@ -67,9 +67,16 @@ code {
   from {
     transform: rotate(0deg);
   }
+  10%  { opacity: .1 ; }
+  30%  { opacity: .5 ; }
+  50%  { opacity: 1 ; }
+  50%  { transform: rotate(1800deg); }
+  70%  { opacity: .5 ; }
+  90% { opacity: .1}
   to {
-    transform: rotate(3600deg);
+    transform: rotate(0);
   }
+ 
  }
 
 

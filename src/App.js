@@ -39,9 +39,6 @@ const [count, setCount] = useState(null);
         
 
           </div>
-          <Button className="explore-button" onClick={clickName}> Feed </Button>
-          <br/>
-          <Button className="explore-button" onClick={resetCount}> Reset </Button>
 
          </div>
         
