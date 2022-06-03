@@ -27,8 +27,8 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation: spinround 5s ease-in 0s infinite normal;
-  animation-duration: 5s;
+  animation: spinround 50s ease-in 0s infinite normal;
+  
 
   }
   
@@ -53,8 +53,6 @@ code {
   justify-self:flex-end;
 }
 
-
-
  .counter{
   text-align: center;
    font-size:70px;
@@ -70,7 +68,7 @@ code {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(3600deg);
   }
  }
 
