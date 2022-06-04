@@ -27,7 +27,7 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation: spinround 20s ease-in infinite normal;
+  animation: spinround 60s linear infinite normal;
   
 
   }
@@ -71,14 +71,18 @@ code {
   from {
     transform: rotate(0deg);
   }
-  10%  { opacity: .4 ; }
-  30%  { opacity: .7 ; }
-  40% { opacity: .8 ; }
-  50%  { opacity: 1 ; }
+  10%  { opacity:1. ; }
+  30%  { opacity:.8 ; }
+  40% { opacity:1.; }
+  45%  { opacity:.8 ; }
+  50% { opacity:1. ; }
+  55%  { opacity:.8 ; }
   50%  { transform: rotate(1800deg); }
-  60%{ opacity: .8 ;}
-  70%  { opacity: .7 ; }
-  90% { opacity: .4}
+  60%{ opacity: 1. ;}
+  70%  { opacity:.8 ; }
+  80%{ opacity:1. ;}
+  85%  { opacity:.8 ; }
+  90% { opacity:1.}
   to {
     transform: rotate(0);
   }
