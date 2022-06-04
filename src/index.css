@@ -57,7 +57,7 @@ code {
   justify-self:flex-end;
 }
 
- .counter{
+ .upper{
   text-align: center;
    font-size:70px;
    color: white;
@@ -65,6 +65,16 @@ code {
    opacity: .7;
    font-family: 'Tiro Kannada', serif;
 
+ }
+
+ .lower{
+  text-align: center;
+   font-size:70px;
+   color: white;
+   height: 90px;
+   opacity: .7;
+   font-family: 'Tiro Kannada', serif;
+   transform: rotate(0.5turn);
  }
 
  @keyframes spinround {

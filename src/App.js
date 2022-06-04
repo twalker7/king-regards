@@ -32,9 +32,14 @@ const [count, setCount] = useState(null);
       <div>
        
         <div className="container" >
-        <div className="counter">{sentence[count]}</div>
+       
           <div className="content-section"> 
-                      
+            <div className="upper">
+              T 
+            </div>  
+            <div className="lower">
+              T 
+          </div>      
     
 
           </div>
