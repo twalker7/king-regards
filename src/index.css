@@ -19,7 +19,7 @@ code {
   height: 400px; 
   width: 400px;
   border: 3px rgba(240, 236, 236, 0.1) solid;
-  border-radius: 20%;
+  border-radius:20%;
   padding: 5px;
   background-color:rgba(182, 182, 182, 0.3);
   box-shadow: 0px -15px 10px rgba(255,255,255, .1);
@@ -68,6 +68,14 @@ code {
 
  }
 
+ .statement-upper{
+   color: white;
+   display: flex;
+   justify-content: center;
+ }
+
+ 
+
  .lower{
   text-align: center;
    font-size:70px;
@@ -77,6 +85,12 @@ code {
    font-family: 'Tiro Kannada', serif;
    transform: rotate(0.5turn);
  }
+
+ .statement-lower{
+  color: white;
+  transform: rotate(180deg);
+ }
+
 
  .middle{
   text-align: center;
@@ -88,6 +102,8 @@ code {
    animation: smallSpin 60s linear infinite normal;
 
  }
+
+
 
  @keyframes spinround {
   from {
