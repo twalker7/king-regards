@@ -78,6 +78,17 @@ code {
    transform: rotate(0.5turn);
  }
 
+ .middle{
+  text-align: center;
+   font-size:70px;
+   color: white;
+   height: 90px;
+   opacity: .7;
+   font-family: 'Tiro Kannada', serif;
+   animation: smallSpin 60s linear infinite normal;
+
+ }
+
  @keyframes spinround {
   from {
     transform: rotate(0deg);
@@ -98,8 +109,15 @@ code {
     transform: rotate(0);
   }
  
- }
 
+ }
+ @keyframes smallSpin{
+  from{
+    transform: rotate(18000deg);
+  }
+
+  100% {transform: rotate(0deg); }
+}
 
   @media only screen and (max-width:600px){
 

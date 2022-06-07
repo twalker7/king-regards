@@ -37,6 +37,9 @@ const [count, setCount] = useState(null);
             <div className="upper">
               T 
             </div>  
+            <div className="middle">
+              T 
+          </div>  
             <div className="lower">
               T 
           </div>      
