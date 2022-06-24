@@ -30,11 +30,11 @@ const [count, setCount] = useState(null);
    
   return (
       <div>
-       
+               <div className="statement-upper"><h4> The only way to respect a broken system is to fix it </h4></div>  
+
         <div className="container" >
-       
+
           <div className="content-section">
-            <div className="statement-upper"><h4> The only way to respect a broken system is to fix it </h4></div>  
             <div className="upper">
               T 
             </div>  
@@ -44,7 +44,6 @@ const [count, setCount] = useState(null);
             <div className="lower">
               T 
           </div>   
-          <div className="statement-lower"><h4> The only way to respect a broken system is to fix it </h4></div>  
 
     
 
@@ -52,10 +51,13 @@ const [count, setCount] = useState(null);
 
          </div>
         
-    
+
       </div>
     
   );
 }
 
 export default App;
+
+
+//          <div className="statement-lower"><h4> The only way to respect a broken system is to fix it </h4></div>  

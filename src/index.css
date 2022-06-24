@@ -66,6 +66,8 @@ code {
    opacity: .7;
    font-family: 'Tiro Kannada', serif;
 
+
+
  }
 
  .statement-upper{
@@ -73,6 +75,8 @@ code {
    display: flex;
    justify-content: center;
    font-family: 'League Gothic', sans-serif; 
+   margin-bottom: 8vh;
+   opacity: .7;
    
  }
 
