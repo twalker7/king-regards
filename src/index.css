@@ -77,10 +77,9 @@ code {
    font-family: 'League Gothic', sans-serif; 
    margin-bottom: 8vh;
    opacity: .7;
+ font-size: 10px;
    
  }
-
- 
 
  .lower{
   text-align: center;

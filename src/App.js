@@ -30,7 +30,7 @@ const [count, setCount] = useState(null);
    
   return (
       <div>
-               <div className="statement-upper"><h4> The only way to respect a broken system is to fix it </h4></div>  
+               <div className="statement-upper"><h4 className="statement-text"> The only way to respect a broken system is to fix it </h4></div>  
 
         <div className="container" >
 
