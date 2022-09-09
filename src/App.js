@@ -30,19 +30,19 @@ const [count, setCount] = useState(null);
    
   return (
       <div>
-               <div className="statement-upper"><h4 className="statement-text"> The only way to respect a broken system is to fix it </h4></div>  
+               <div className="statement-upper"><h2 className="statement-text"> Coming Soon </h2></div>  
 
         <div className="container" >
 
           <div className="content-section">
             <div className="upper">
-              P 
+              T 
             </div>  
             <div className="middle">
               T 
           </div>  
             <div className="lower">
-              S 
+              T 
           </div>   
 
     
