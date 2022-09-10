@@ -36,13 +36,13 @@ const [count, setCount] = useState(null);
 
           <div className="content-section">
             <div className="upper">
-              T 
+              👑
             </div>  
             <div className="middle">
-              T 
+              T
           </div>  
             <div className="lower">
-              T 
+              👑
           </div>   
 
     
