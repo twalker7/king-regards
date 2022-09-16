@@ -30,7 +30,7 @@ const [count, setCount] = useState(null);
    
   return (
       <div>
-               <div className="statement-upper"><h1 className="statement-text"> Coming Soon </h1></div>  
+               <div className="statement-upper"><h1 className="statement-text"> Thomas Walker </h1></div>  
 
         <div className="container" >
 
