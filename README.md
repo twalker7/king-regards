@@ -1,14 +1,10 @@
 # King Regards 
 
-## About 
-
-
-
 
 
 ## Description 
 
-King Regards is a front end project purposed to provide a palette of direction for future user interfaces. All elements of this application are designed by Thomas Walker, with artwork used from photographer Martin Sanchez.
+A front end project purposed to provide a palette of direction for future user interfaces. All elements of this application are designed by Thomas Walker, with artwork used from photographer Martin Sanchez.
 
  
  ### Snapshot
@@ -20,7 +16,6 @@ King Regards is a front end project purposed to provide a palette of direction f
 ## Table of Contents
 
 * [Installation](#installation)
-* [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
 
@@ -31,8 +26,8 @@ Technology: React, BootStrap
 
 ## Credits
 
-Thomas Walker, Active8 Distrubution Services 
-
+Thomas Walker, Developer
+Martin Sanchez, Artist
 ## License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

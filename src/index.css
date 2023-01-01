@@ -65,7 +65,7 @@ code {
    height: 90px;
    opacity: .7;
    font-family: 'Tiro Kannada', serif;
-
+   animation: smallSpin 60s linear infinite normal;
 
 
  }
@@ -78,6 +78,7 @@ code {
    margin-bottom: 8vh;
    opacity: .7;
  font-size: 50px;
+ 
    
  }
 
@@ -89,12 +90,14 @@ code {
    opacity: .7;
    font-family: 'Tiro Kannada', serif;
    transform: rotate(180deg);
+   animation: smallSpin 60s linear infinite normal;
  }
 
  .statement-lower{
   color: white;
   transform: rotate(180deg);
   font-family: 'League Gothic', sans-serif; 
+
  }
 
 
