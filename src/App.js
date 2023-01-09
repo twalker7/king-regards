@@ -51,6 +51,8 @@ const [count, setCount] = useState(null);
 
          </div>
         
+    <div className="flying-shape1"> </div>
+    <div className="flying-shape2"> </div>
 
       </div>
     
