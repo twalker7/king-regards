@@ -29,7 +29,7 @@ const [count, setCount] = useState(null);
    
   return (
       <div>
-               <div className="statement-upper"><h1 className="statement-text"> Thomas Walker </h1></div>  
+               <div className="statement-upper"><h1 className="statement-text"> ^ YHWH ^ </h1></div>  
 
         <div className="container" >
 
@@ -50,8 +50,8 @@ const [count, setCount] = useState(null);
 
          </div>
         
-    <div className="flying-shape1"> </div>
-    <div className="flying-shape2"> </div>
+    <div className="flying flying-shape1"> </div>
+    <div className="flying flying-shape2"> </div>
 
       </div>
     
