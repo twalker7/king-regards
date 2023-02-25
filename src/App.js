@@ -29,19 +29,19 @@ const [count, setCount] = useState(null);
    
   return (
       <div>
-               <div className="statement-upper"><h1 className="statement-text"> ^ YHWH ^ </h1></div>  
+               <div className="statement-upper"><h1 className="statement-text"> יהוה </h1></div>  
 
         <div className="container" >
 
           <div className="content-section">
             <div className="upper">
-             ≈
+            ○
             </div>  
             <div className="middle">
-            ∆
+            ○
           </div>  
             <div className="lower">
-            π
+            ○
           </div>   
 
     
