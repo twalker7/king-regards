@@ -216,22 +216,6 @@ code {
 
 
 
-   /* body{
-      text-align: center;
-      background-image: url(/src/assets/kazuend-unsplash.jpg);
-      background-size: cover; 
-      background-position: center;
-      background-repeat: repeat;
-      background-attachment: fixed;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-     
-
-    }
-    */
-
     .profile-image{
       height: 40vh;
       width: 50vw;
