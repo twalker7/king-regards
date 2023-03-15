@@ -13,8 +13,6 @@ code {
     monospace;
 }
 
-
-
 .container{
   height: 400px; 
   width: 400px;
@@ -22,20 +20,16 @@ code {
   border-radius:20%;
   padding: 5px;
   background-color:rgba(182, 182, 182, 0.3);
-  
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   animation: spinround 60s linear infinite normal;
-  
-  
 
   }
   
 .title{
     color:rgb(255, 255, 255, .9);
-   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    
   }
@@ -51,7 +45,6 @@ code {
     opacity: .4;
     border-radius:25px;
 
-    
   }
 
 .explore-button{
@@ -67,7 +60,6 @@ code {
    font-family: 'Tiro Kannada', serif;
    animation: smallSpin 60s linear infinite normal;
 
-
  }
 
  .statement-upper{
@@ -79,8 +71,6 @@ code {
    opacity: .7;
   font-size: 50px;
 
- 
-   
  }
 
  .lower{
@@ -92,6 +82,7 @@ code {
    font-family: 'Tiro Kannada', serif;
    transform: rotate(180deg);
    animation: smallSpin 60s linear infinite normal;
+   
  }
 
  .statement-lower{
@@ -100,7 +91,6 @@ code {
   font-family: 'League Gothic', sans-serif; 
 
  }
-
 
  .middle{
   text-align: center;
@@ -113,12 +103,10 @@ code {
 
  }
 
- 
 
  .flying-shape1{
   height: 60px;
   width: 60px;
-
   animation: flyingShape1 5s infinite ; 
   border-radius: 50%;
   background-color:rgba(182, 182, 182, 0.3);
@@ -128,12 +116,10 @@ code {
 .flying-shape2{
   height: 60px;
   width: 60px;
-
   animation: flyingShape2 5s infinite ; 
   border-radius: 50%;
   background-color:rgba(182, 182, 182, 0.3);
   
-
 }
 
 
@@ -213,8 +199,6 @@ code {
  }
 
   @media only screen and (max-width:600px){
-
-
 
     .profile-image{
       height: 40vh;
